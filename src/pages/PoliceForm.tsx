@@ -1,7 +1,8 @@
 import CaseForm from "@/components/CaseForm";
+import { config } from "@/config/env";
 
 const PoliceForm = () => {
-  const webhookUrl = "";
+  const webhookUrl = config.webhookUrl;
   
   return (
     <div className="fade-in">
